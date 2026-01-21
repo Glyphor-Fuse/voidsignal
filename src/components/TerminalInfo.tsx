@@ -34,7 +34,7 @@ const TerminalInfo: React.FC = () => {
       <div className="relative">
         <div className="aspect-square brutalist-border p-2 grayscale hover:grayscale-0 transition-all duration-700">
           <img 
-            src="<span className="block"><img src="https://images.pexels.com/photos/27362930/pexels-photo-27362930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Explore the iconic modernist architecture in Bucharest, a symbol of urban development." loading="lazy" /><a href="https://www.pexels.com/photo/historic-modernist-concrete-brutalist-architecture-27362930/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Jakub Zerdzicki on Pexels</a></span>" 
+            src="https://images.pexels.com/photos/27362930/pexels-photo-27362930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
             alt="Venue" 
             className="w-full h-full object-cover"
           />

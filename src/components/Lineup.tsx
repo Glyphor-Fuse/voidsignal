@@ -43,7 +43,7 @@ const Lineup: React.FC = () => {
 
             <div className="absolute inset-0 opacity-0 group-hover:opacity-10 pointer-events-none">
               <img 
-                src={`<span className="block"><img src="https://images.pexels.com/photos/13194386/pexels-photo-13194386.png?auto=compress&cs=tinysrgb&h=650&w=940" alt="A high-tech robot showcases advanced technology with its glowing energy sword in a futuristic setting." loading="lazy" /><a href="https://www.pexels.com/photo/robot-with-illuminated-item-13194386/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by iCliff Agendia on Pexels</a></span>`} 
+                src="https://images.pexels.com/photos/13194386/pexels-photo-13194386.png?auto=compress&cs=tinysrgb&h=650&w=940" 
                 alt={artist.name}
                 className="w-full h-full object-cover"
               />

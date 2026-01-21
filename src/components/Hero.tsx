@@ -1,6 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+/**
+ * Note: The CI lint failure "Invalid option '--ext'" is caused by incompatible CLI arguments 
+ * in package.json (ESLint 9+ with flat config does not support --ext). 
+ * Since package.json is not provided for modification, this lint failure may persist 
+ * even after fixing the build errors below.
+ */
+
 const Hero: React.FC = () => {
   return (
     <header className="relative min-h-screen flex flex-col justify-end px-4 md:px-10 pb-20 pt-32 overflow-hidden">
@@ -9,7 +16,7 @@ const Hero: React.FC = () => {
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.4 }}
           transition={{ duration: 2, ease: "easeOut" }}
-          src="<span className="block"><img src="https://images.pexels.com/photos/11558377/pexels-photo-11558377.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Vibrant glitch art featuring a visually striking eye in an abstract style." loading="lazy" /><a href="https://www.pexels.com/photo/colourful-abstract-illustration-11558377/" target="_blank" rel="noopener noreferrer" className="text-[10px] text-slate-400 block mt-0.5">Photo by Alexey Demidov on Pexels</a></span>" 
+          src="https://images.pexels.com/photos/11558377/pexels-photo-11558377.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" 
           alt="Glitch"
           className="w-full h-full object-cover"
         />
